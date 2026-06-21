@@ -1,0 +1,23 @@
+table_or_family,feature_owner,purpose,user_scoped,rls_relevance,monetization_relevance,status,risk_notes
+agents family,Agents,"Agent definitions, versions, skills, memories, pending context",yes,high,Agent limits and paid deployment,marketable_now,Confirm public reads expose only intended fields.
+agent_channels family,Agent Channels,Channel setup and messages,yes,high,Paid channel deployment,partial,Unify execution under ai-route.
+business_spaces,Business Spaces,"B2B workspace profile, ROI, proposal state, status",yes,high,Primary B2B paid surface,marketable_now,Preserve preview vs paid manage separation.
+business_space_night_shifts,Business Spaces,Scheduled/running/reviewed Night Shift tasks,yes,high,Credits and automation add-on,live,Verify reserve/debit/refund before selling autonomy.
+solution_plans family,Smart Solution Plans,Generated business plans and usage quotas,yes,high,Lead-to-plan monetization,live,Surface quotas in admin.
+workspace_files family,Vault,"Workspace file tree, generated outputs, versions",yes,high,Storage/proof/client deliverables,marketable_now,Avoid sensitive screenshots.
+knowledge_sources,Knowledge,Grounding sources,yes,high,Higher-tier knowledge limits,partial,Embedding/provider path unknown.
+flows family,Automation,"Flows, execution history, schedules",yes,high,Paid automation and credits,partial,Tighten server entitlement and credit audit.
+credit_* family,Credits,"Credit balances, ledger, settings, top-ups",yes,critical,Core AI cost and revenue safety,marketable_now,Double-debit/refund tests required.
+admin_api_keys and routing tables,AI Control Plane,"Provider keys, tier defaults, user assignments, model routes",admin,critical,Provider margin and quality,marketable_now,Secrets must never leak.
+platform_feature_flags,Launch Control,Feature flags and model/media configs,admin,critical,Revenue-safe staged rollout,marketable_now,Document flags that gate paid routes.
+admin_audit_log and admin notifications,Admin,"Audit, inbox, messages",admin/user,high,Enterprise trust,marketable_now,Avoid secrets in metadata.
+arsenals family,Arsenals,"Bundles, public pages, products, access grants",mixed,high,Paid bundles,needs_polish,Confirm grants cannot be forged client-side.
+prompt_packs family,Instruction Lab,Prompt pack marketplace and installs,yes,medium,Prompt-pack sales,partial,Needs pricing/entitlements.
+skills,Skills,Reusable skill definitions and import metadata,yes,medium,Paid skill marketplace,partial,Imported skills need review lifecycle.
+community/discover family,Marketplace,Community and discovery social graph,mixed,medium,Discovery and marketplace trust,needs_polish,Moderation and quota visibility needed.
+experience_usage family,Experiences,Experience usage and monthly limits,yes,medium,Paid experiences,partial,Tie usage to entitlements/credits.
+partner/referral family,Partners,"Referral, partner dashboard, commission ledger",yes/admin,high,Affiliate growth and payouts,marketable_now,Finance review before payouts.
+program_* family,Programs,"Program access, completion, credentials, progress",yes/mixed,medium,Education/program revenue,needs_polish,Check access redirects before campaigns.
+zen_daily_* family,Content,Daily issue/tabs/sections/source items/config,admin/public,medium,Content acquisition,partial,Provider/credit path needs visibility.
+user_oauth_connections,Integrations,OAuth connection state,yes,high,Advanced connectors,partial,Review token lifecycle and scopes.
+operator_event_logs,Operator OS,"Operator decisions, actions, credits reserved",yes/admin,high,Enterprise observability,partial,Verify redaction for admin views.

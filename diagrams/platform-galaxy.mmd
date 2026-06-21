@@ -1,0 +1,27 @@
+flowchart LR
+  Users[Users and Buyers] --> Dashboard[Dashboard / Command Center]
+  Dashboard --> Agents[Agents]
+  Dashboard --> Business[Business Spaces]
+  Dashboard --> ZEngine[Z-Engine]
+  Dashboard --> Vault[Files / Vault / Knowledge]
+  Agents --> Skills[Skills]
+  Agents --> Channels[Channels]
+  Agents --> Marketplace[Marketplace / Discover]
+  Business --> ROI[ROI / Smart Solution Plans]
+  Business --> NightShift[Night Shift]
+  Business --> Flex[Flex OS / Operators]
+  Business --> Proposal[Proposal / Portal / Export]
+  ZEngine --> Artifacts[Reusable Artifacts]
+  Instruction[Instruction Lab / Tune] --> PromptPacks[Prompt Packs]
+  PromptPacks --> Marketplace
+  Skills --> Marketplace
+  Arsenals[Arsenals / Bundles] --> Marketplace
+  Experiences[Experiences] --> Marketplace
+  Marketplace --> Billing[Billing / Credits / Payouts]
+  Channels --> Outputs[External Outputs]
+  Vault --> Outputs
+  Admin[Admin Control Plane] --> AIRoute[AI Route Control Plane]
+  Admin --> Billing
+  AIRoute --> Providers[Provider Pool]
+  AIRoute --> Credits[Credit Ledger]
+  AIRoute --> Usage[Usage Logs]

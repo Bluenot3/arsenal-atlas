@@ -1,0 +1,22 @@
+control_id,control_surface,implementation,admin_role,access_type,tables_or_functions,risk_level,notes
+command,Mission-control overview,AdminDashboard tab,admin,read/action,admin_audit_log; stats,medium,Use as revenue readiness home.
+users,Manage signed-up users,admin-users edge function,admin,write high-risk,profiles; auth users,critical,Password/ban/delete must stay role-restricted.
+admin_team,Platform admins and roles,platform_admins,security master,write critical,platform_admins,critical,Role boundaries are critical.
+flags,Feature flags,platform_feature_flags,security master/admin,write,platform_feature_flags,high,Launch control for paid/risky features.
+view_as,Simulate role/tier,ViewAsControl,admin,simulation,local state,medium,Paywall QA tool.
+api_keys,Provider key vault,AdminDashboard API Keys,admin,secret write,admin_api_keys,critical,Never expose secrets.
+providers,Provider/model catalog,ProvidersStudio,admin,write,admin_api_keys,high,Central model/provider inventory.
+zengine,Z-Engine route model control,ZEngineModelAdminPanel,admin,write,platform_feature_flags,high,Controls expensive generation.
+tier_defaults,Default provider keys per tier,tier_key_defaults,admin,write,tier_key_defaults,critical,Affects cost/quality.
+capabilities,User capabilities,user_capabilities,admin,write,user_capabilities,high,Can bypass normal gates.
+limits,Usage limits,usage_limit_configs,admin,write,usage_limit_configs,critical,Free/paid AI cost control.
+usage,Usage analytics,usage_events/ai_route_events,admin,read,usage_events; ai_route_events,medium,Revenue/reliability signals.
+audit,Platform audit log,admin_audit_log,admin,read/export,admin_audit_log,high,Redact sensitive metadata.
+system,System health,SystemHealthPanel,admin,read,diagnostics,medium,Operational trust.
+credits,Credit settings,AdminCreditsPanel,billing admin,write,credit_settings; credit_topup_packs,critical,Revenue and ledger critical.
+business_spaces,Business Spaces review,AdminBusinessSpacesPanel,admin,read,business_spaces,medium,B2B monitoring.
+operators,Operator/Flex telemetry,AdminOperatorsPanel,admin,read,operator_event_logs; business_space_night_shifts,high,Must remain privacy-safe.
+experiences,Experience controls,AdminExperiencesPanel,admin,write,experience settings,medium,Dedicated route needs classification.
+partners,Referral rewards,AdminReferralRewardsPanel,billing admin,write,partner_commissions; referral settings,high,Finance review before payouts.
+admin_pages,Admin-managed pages,AdminPagesPanel,admin,write,admin_app_pages,medium,Public content safety.
+zen_daily,Publication engine,ZenDailyStudio,admin,write,zen_daily_*,medium,Content/source controls.

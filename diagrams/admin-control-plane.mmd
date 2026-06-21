@@ -1,0 +1,18 @@
+flowchart TD
+  Admin[Admin Dashboard] --> Users[Users]
+  Admin --> Billing[Billing]
+  Admin --> Credits[Credits]
+  Admin --> Providers[Providers and API keys]
+  Admin --> Models[Models / Z-Engine / tier defaults]
+  Admin --> Visibility[Feature visibility / launch control]
+  Admin --> Marketplace[Marketplace / community / partners]
+  Admin --> Announcements[Announcements / guidance / notifications]
+  Admin --> Usage[Usage / audit / AI route events]
+  Admin --> System[System health]
+  Admin --> Business[Business Spaces / operators]
+  Admin --> Pages[Admin pages / client studio]
+  Providers --> AIRoute[AI Route]
+  Models --> AIRoute
+  Visibility --> AIRoute
+  AIRoute --> Usage
+  Billing --> Credits

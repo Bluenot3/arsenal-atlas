@@ -1,0 +1,92 @@
+route,page_file,public_or_authenticated,user_type,purpose,feature_cluster,status,nav_visible,auth_required,monetization_relevance,risk_notes
+/,element:DomainAwareHome,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/login,element:PublicRoute,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/reset-password,element:ResetPassword,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/bot/:slug,element:BotPublic,public,visitor,Agent creation/runtime/distribution,agents,marketable_now,yes,no/mixed,high,
+/agent/:id,element:AgentPublicPage,public,visitor,Agent creation/runtime/distribution,agents,marketable_now,yes,no/mixed,high,
+/arsenal/:slug,element:ArsenalPublicPage,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/a/:slug,element:ArsenalPublicPage,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/verify/:verificationSlug,element:CredentialVerifyPage,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/partners,element:PartnersPage,public,visitor,"Revenue, pricing, partner, or payout surface",monetization,marketable_now,yes,no/mixed,high,
+/partners/apply,element:PartnerApplyPage,public,visitor,"Revenue, pricing, partner, or payout surface",monetization,marketable_now,yes,no/mixed,high,
+/page/:slug,element:AdminManagedPage,admin,admin,Application surface,admin,marketable_now,yes,yes/admin,high,
+/ai-agent-builder,element:AiAgentBuilderLanding,authenticated,authenticated user,Agent creation/runtime/distribution,agents,marketable_now,yes,yes,high,
+/ai-workflow-automation,element:AiWorkflowAutomationLanding,authenticated,authenticated user,Repeatable execution or operator work,automation,partial,yes,yes,high,
+/ai-agents-for-business,element:AiAgentsForBusinessLanding,authenticated,authenticated user,Business Spaces operating/revenue surface,business_spaces,marketable_now,yes,yes,high,
+/programs,element:Navigate,public,visitor,Redirect alias,platform,legacy_or_gated,redirect,no/mixed,medium,
+/ecosystem,element:EcosystemHub,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/programs/:id,element:ProgramPage,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/eco,element:EcoPage,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/partners/dashboard,element:PartnerDashboardPage,public,visitor,"Revenue, pricing, partner, or payout surface",monetization,marketable_now,yes,no/mixed,high,
+/dashboard,pages/DashboardPage.tsx,authenticated,authenticated user,Application surface,platform,marketable_now,yes,yes,medium,
+/zen,element:ZenCommandWorkspaceRoute,authenticated,authenticated user,Advanced creation and reasoning workspace,z_engine,marketable_now,yes,yes,high,
+/build-team,element:BuildTeamPage,authenticated,authenticated user,Application surface,platform,marketable_now,yes,yes,medium,
+/team,element:TeamManagementPage,authenticated,authenticated user,Application surface,platform,marketable_now,yes,yes,medium,
+/agents,pages/AgentsPage.tsx,authenticated,authenticated user,Agent creation/runtime/distribution,agents,marketable_now,yes,yes,high,
+/agents/:id,pages/AgentDetailPage.tsx,public,visitor,Agent creation/runtime/distribution,agents,marketable_now,yes,no/mixed,high,
+/agents/:id/share,element:AgentSharePage,public,visitor,Agent creation/runtime/distribution,agents,marketable_now,yes,no/mixed,high,
+/workspace,pages/FilesPage.tsx,authenticated,authenticated user,"Workspace files, vault, and knowledge",vault_knowledge,marketable_now,yes,yes,medium,
+/knowledge,pages/FilesPage.tsx,authenticated,authenticated user,"Workspace files, vault, and knowledge",vault_knowledge,marketable_now,yes,yes,medium,
+/z-engine,pages/ZEngineLab.tsx,authenticated,authenticated user,Advanced creation and reasoning workspace,z_engine,marketable_now,yes,yes,high,
+/files,pages/FilesPage.tsx,authenticated,authenticated user,"Workspace files, vault, and knowledge",vault_knowledge,marketable_now,yes,yes,medium,
+/vault,pages/FilesPage.tsx,authenticated,authenticated user,"Workspace files, vault, and knowledge",vault_knowledge,marketable_now,yes,yes,medium,
+/project-vault,pages/FilesPage.tsx,authenticated,authenticated user,"Workspace files, vault, and knowledge",vault_knowledge,marketable_now,yes,yes,medium,
+/legacy/knowledge,element:KnowledgePage,admin/labs,authenticated user,"Workspace files, vault, and knowledge",labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+/legacy/project-vault,element:ProjectVaultPage,admin/labs,authenticated user,"Workspace files, vault, and knowledge",labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+/experiences,element:ExperiencesPage,authenticated,authenticated user,Interactive productized experiences,experiences,partial,yes,yes,high,
+/experiences/:id,element:ExperienceEditorPage,public,visitor,Interactive productized experiences,experiences,partial,yes,no/mixed,high,
+/marketplace,pages/MarketplacePage.tsx,authenticated,authenticated user,Discovery/distribution/community,marketplace,needs_polish,yes,yes,high,
+/accelerate,element:AcceleratePage,authenticated,authenticated user,Application surface,platform,marketable_now,yes,yes,medium,
+/flex-os,element:FlexOSPage,authenticated,authenticated user,Repeatable execution or operator work,automation,partial,yes,yes,high,
+/hermes,element:Navigate,authenticated,authenticated user,Redirect alias,platform,legacy_or_gated,redirect,yes,medium,
+/keys,element:KeysVaultPage,authenticated,authenticated user,"Workspace files, vault, and knowledge",vault_knowledge,marketable_now,yes,yes,medium,
+/settings,element:SettingsPage,authenticated,authenticated user,Application surface,platform,marketable_now,yes,yes,medium,
+/profile,element:ProfilePage,authenticated,authenticated user,"Workspace files, vault, and knowledge",vault_knowledge,marketable_now,yes,yes,medium,
+/pricing,pages/PricingPage.tsx,authenticated,authenticated user,"Revenue, pricing, partner, or payout surface",monetization,marketable_now,yes,yes,high,
+/arsenals,element:ArsenalsPage,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/arsenals/architect,element:FleetArchitectPage,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/arsenals/:id/edit,element:ArsenalEditorPage,public,visitor,Application surface,platform,marketable_now,yes,no/mixed,medium,
+/revenue,element:RevenuePage,authenticated,authenticated user,"Revenue, pricing, partner, or payout surface",monetization,marketable_now,yes,yes,high,
+/leads,element:LeadsPage,authenticated,authenticated user,Application surface,platform,marketable_now,yes,yes,medium,
+/embed,element:Navigate,authenticated,authenticated user,Redirect alias,platform,legacy_or_gated,redirect,yes,medium,
+/discover,element:DiscoverPage,authenticated,authenticated user,Discovery/distribution/community,marketplace,needs_polish,yes,yes,high,
+/community,element:CommunityPage,authenticated,authenticated user,Discovery/distribution/community,marketplace,needs_polish,yes,yes,high,
+/skills,element:SkillsPage,authenticated,authenticated user,"Reusable prompts, skills, and instruction assets",skills_instructions,marketable_now,yes,yes,medium,
+/instruction-lab,pages/InstructionLabPage.tsx,authenticated,authenticated user,"Reusable prompts, skills, and instruction assets",skills_instructions,marketable_now,yes,yes,medium,
+/automation,pages/AutomationPage.tsx,authenticated,authenticated user,Repeatable execution or operator work,automation,partial,yes,yes,high,
+/operator-os,element:Navigate,authenticated,authenticated user,Redirect alias,automation,legacy_or_gated,redirect,yes,high,
+/business-spaces,pages/BusinessSpacesPage.tsx,authenticated,authenticated user,Business Spaces operating/revenue surface,business_spaces,marketable_now,yes,yes,high,
+/business-spaces/new,element:BusinessSpaceNewPage,authenticated,authenticated user,Business Spaces operating/revenue surface,business_spaces,marketable_now,yes,yes,high,
+/business-spaces/:id/*,pages/BusinessSpaceDetailPage.tsx,public,visitor,Business Spaces operating/revenue surface,business_spaces,marketable_now,yes,no/mixed,high,
+/business/:id/*,pages/BusinessSpaceDetailPage.tsx,public,visitor,Business Spaces operating/revenue surface,business_spaces,marketable_now,yes,no/mixed,high,
+/client-studio,element:AdminOnlyRoute,admin,admin,Business Spaces operating/revenue surface,business_spaces,marketable_now,yes,yes/admin,high,
+/flows,pages/AutomationPage.tsx,authenticated,authenticated user,Repeatable execution or operator work,automation,partial,yes,yes,high,
+/baskets,pages/AutomationPage.tsx,authenticated,authenticated user,Repeatable execution or operator work,automation,partial,yes,yes,high,
+/schedules,pages/AutomationPage.tsx,authenticated,authenticated user,Repeatable execution or operator work,automation,partial,yes,yes,high,
+/integrations,element:IntegrationsPage,authenticated,authenticated user,Application surface,platform,marketable_now,yes,yes,medium,
+/fusion,element:Navigate,authenticated,authenticated user,Redirect alias,platform,legacy_or_gated,redirect,yes,medium,
+/admin,pages/AdminDashboard.tsx,admin,admin,Application surface,admin,marketable_now,yes,yes/admin,high,
+/admin/partners,element:AdminOnlyRoute,admin,admin,"Revenue, pricing, partner, or payout surface",monetization,marketable_now,yes,yes/admin,high,
+/admin/pages,element:AdminOnlyRoute,admin,admin,Application surface,admin,marketable_now,yes,yes/admin,high,
+/usail,element:UsailPage,authenticated,authenticated user,Application surface,platform,marketable_now,yes,yes,medium,
+/admin/keys,pages/AdminDashboard.tsx,admin,admin,Application surface,admin,marketable_now,yes,yes/admin,high,
+/labs,element:AdminOnlyRoute,admin/labs,admin,Application surface,labs_legacy,legacy_or_gated,yes,yes/admin,high,Legacy compatibility route; keep out of normal buyer journey.
+legacy/marketplace,element:Marketplace,admin/labs,authenticated user,Discovery/distribution/community,labs_legacy,legacy_or_gated,yes,yes/admin,high,Legacy compatibility route; keep out of normal buyer journey.
+legacy/workspace/:id,element:Workspace,admin/labs,visitor,"Workspace files, vault, and knowledge",labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+legacy/knowledge,element:KnowledgeVault,admin/labs,authenticated user,"Workspace files, vault, and knowledge",labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+legacy/create,element:BotBuilder,admin/labs,authenticated user,Agent creation/runtime/distribution,labs_legacy,legacy_or_gated,yes,yes/admin,high,Legacy compatibility route; keep out of normal buyer journey.
+legacy/edit/:id,element:BotBuilder,admin/labs,visitor,Agent creation/runtime/distribution,labs_legacy,legacy_or_gated,yes,yes/admin,high,Legacy compatibility route; keep out of normal buyer journey.
+legacy/arena/new,element:ArenaDesigner,admin/labs,authenticated user,Application surface,labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+legacy/arena/edit/:id,element:ArenaDesigner,admin/labs,visitor,Application surface,labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+legacy/keys,element:KeysVault,admin/labs,authenticated user,"Workspace files, vault, and knowledge",labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+legacy/analytics,element:Analytics,admin/labs,authenticated user,Application surface,labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+legacy/subscription,element:Subscription,admin/labs,authenticated user,Application surface,labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+legacy/studio/image,element:ImageStudio,admin/labs,authenticated user,Application surface,labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+legacy/studio/image-agents,element:ImageAgentStudio,admin/labs,authenticated user,Agent creation/runtime/distribution,labs_legacy,legacy_or_gated,yes,yes/admin,high,Legacy compatibility route; keep out of normal buyer journey.
+legacy/studio/app,element:AppForge,admin/labs,authenticated user,Application surface,labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+legacy/studio/game,element:GameLab,admin/labs,authenticated user,Application surface,labs_legacy,legacy_or_gated,yes,yes/admin,medium,Legacy compatibility route; keep out of normal buyer journey.
+fusion,element:AgentFusion,authenticated,authenticated user,Agent creation/runtime/distribution,agents,marketable_now,yes,yes,high,
+z-engine,pages/ZEngineLab.tsx,authenticated,authenticated user,Advanced creation and reasoning workspace,z_engine,marketable_now,yes,yes,high,
+roam,element:RoamPage,authenticated,authenticated user,Application surface,platform,marketable_now,yes,yes,medium,
+/:slug,element:AdminManagedPage,admin,admin,Application surface,admin,marketable_now,yes,yes/admin,high,
+*,element:Navigate,authenticated,authenticated user,Redirect alias,platform,legacy_or_gated,redirect,yes,medium,

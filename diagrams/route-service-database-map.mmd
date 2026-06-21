@@ -1,0 +1,10 @@
+flowchart LR
+  Routes[Routes in App.tsx] --> Pages[Pages]
+  Pages --> Components[Components]
+  Components --> Services[Services]
+  Services --> Edge[Supabase Edge Functions]
+  Services --> Tables[Supabase Tables]
+  Edge --> Tables
+  Edge --> Providers[AI / Stripe / OAuth / Channels]
+  Tables --> Admin[Admin Control Plane]
+  Tables --> Vault[Files / Vault / Proof]

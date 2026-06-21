@@ -1,0 +1,18 @@
+surface,user_value,buyer,pricing_path,current_readiness,missing_piece,revenue_priority_1_to_5,notes
+Subscriptions,"Plus/Pro/Premium unlock limits, models, channels, customization",builders/operators,PricingPage -> create-checkout -> stripe-webhook -> check-subscription,ready,Keep gates consistent server-side,5,RevenueReadinessPanel marks checkout and subscription source ready.
+Credit top-ups,Buy reserve AI credits,power users,create-credit-topup-checkout -> stripe-webhook -> credit_ledger,ready,Show per-feature credit costs,5,Top-up packs and credit ledger exist.
+Business Spaces,Preview free; execution/export/proactive work paid,business buyers,FeatureGate business_spaces.manage,ready,Package setup/monthly service offers,5,Pro/Premium manage gate exists.
+Smart Solution Plans,Pain point to ROI/proposal plan,SMBs/agencies,smart-solution-plan quotas,ready,Package as paid lead magnet,5,Dedicated function and usage table exist.
+Night Shift,Overnight business work with approvals and replay,business operators,night-shift-gate/run + credits,near_ready,Verify reserve/debit/refund,5,Pricing/action policy fields exist.
+Automation/flows,Repeatable work across tools and schedules,operators,flow-executor/schedule-tick,partial,Define paid execution quotas,5,Execution functions exist.
+Paid Arsenals,Buy bundled agents/pages/products,creators/buyers,create-arsenal-access-checkout -> grants,near_ready,Clarify listing/payout UX,5,Access checkout/grants exist.
+Marketplace commission,Creators publish assets and Arsenal takes fee,creators,Marketplace + Connect + commissions,partial,Productize paid listings,5,Pieces exist across systems.
+Referral rewards,Partners earn on paid referrals,partners,Partner dashboard + AdminReferralRewardsPanel,ready,Finance review export/approval,4,Commission statuses/settings visible.
+Experiences,Sell interactive tools,creators/business users,experience-entitlement + usage,partial,Tie usage to pricing,4,Entitlement function exists.
+Prompt packs,Sell reusable prompts,creators/builders,prompt-pack-install/enhance,partial,Paid entitlement and creator payout,4,Prompt pack tables/functions exist.
+Skills,Sell reusable capabilities,creators/builders,Skills registry + marketplace,partial,Review/risk lifecycle,4,Skill import metadata exists.
+Admin pages/client studio,Create launch/client pages without code,agency/enterprise,AdminPagesPanel + ai-route,ready,Package as service upsell,4,Admin pages route exists.
+Programs/credentials,"Paid education, badges, completions",learners/customers,program-access/completion/credentials,near_ready,Confirm access/payment handoff,4,Program functions/tables exist.
+Provider routing margin,Route to cheaper/fast providers while charging credits,platform,ai-route + admin key pool,ready,Finish direct path migration,5,AI Systems Map identifies revenue-safe spine.
+Done-for-you services,ZEN builds systems for clients,SMBs/agencies,Business Spaces + Client Studio + proposals,ready,Create packaged offers,5,Existing surfaces produce collateral.
+Enterprise/white-label,"Unlimited, white-label, governance",larger teams,Premium + admin controls,near_ready,Harden RBAC/audit/connector compliance,5,Premium includes white-label; admin is broad.

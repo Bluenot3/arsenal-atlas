@@ -1,0 +1,20 @@
+flowchart TD
+  Action[User action] --> Surface[Frontend surface]
+  Surface --> Service[Client service]
+  Service --> Edge[Edge function]
+  Edge --> Route{Canonical ai-route?}
+  Route -->|yes| AIRoute[ai-route]
+  Route -->|dedicated exception| Exception[Dedicated route]
+  Exception --> AIRoute
+  Exception --> ProviderDirect[Provider direct path]
+  AIRoute --> Auth[Auth / admin bypass / tier resolution]
+  Auth --> Flags[Feature flags and route keys]
+  Flags --> Limits[Daily limits / usage configs]
+  Limits --> Debit[Credit debit / reserve]
+  Debit --> Keys[Admin key pool / tier defaults / model routes]
+  Keys --> Provider[AI Provider]
+  Provider --> Fallback[Fallback / retry / structured failure]
+  Fallback --> Refund[Refund when needed]
+  Refund --> Logs[ai_route_events / usage_events / admin_audit_log]
+  Logs --> Admin[Admin AI Systems Map]
+  Logs --> Surface

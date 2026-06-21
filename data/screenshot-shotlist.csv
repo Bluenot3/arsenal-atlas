@@ -1,0 +1,36 @@
+screenshot_id,route,login_required,ui_area,purpose,caption,recommended_crop,asset_type,priority,sensitivity_notes
+S001,/dashboard,yes,Dashboard command center,Show Arsenal OS first screen,"Arsenal command center: agents, Business Spaces, Vault, and next actions",desktop full viewport,investor_deck,P0,Demo account only.
+S002,/agents,yes,Agents inventory,Show digital workforce catalog,Deployable agents as business workers,agent grid with create CTA,website,P0,Avoid real user agent names.
+S003,/agents/:id,yes,Agent detail builder,Show instructions/model/tools/knowledge,A deployable worker with tools and knowledge,builder tabs and preview,sales_pdf,P0,Demo agent.
+S004,/agents/:id/share,yes,Share studio,Show embed/public launch,"Build once, deploy everywhere",embed options with dummy values,sales_pdf,P1,Blur tokens.
+S005,/agent/:id,no/mixed,Public agent page,Show external user experience,A public AI worker page,public hero + chat,website,P0,Public demo only.
+S006,/business-spaces,yes,Business Spaces index,Show B2B revenue surface,Business Spaces turn needs into operating systems,metrics + cards + CTA,investor_deck,P0,Demo spaces.
+S007,/business-spaces/:id/command-center,yes,Business command center,Show full B2B cockpit,"Client command center for ROI, agents, work, and outputs",full desktop cockpit,demo_video,P0,Demo only.
+S008,/business-spaces/:id/roi,yes,ROI model,Show measurable value,ROI case before the proposal,ROI metrics and assumptions,sales_pdf,P0,Avoid client financial data.
+S009,/business-spaces/:id/proposal,yes,Proposal builder,Show sales collateral,Proposal and launch kit from the same workspace,proposal preview,sales_pdf,P0,Demo data.
+S010,/business-spaces/:id/night-shift,yes,Night Shift,Show proactive scheduled work,Night Shift queues work while approvals stay honest,task board + gates,investor_deck,P0,No real tasks.
+S011,/business-spaces/:id/flex,yes,Flex OS,Show operator workforce,"Flex operators move work through queues, approvals, replays",cockpit + approvals,demo_video,P1,Demo only.
+S012,/business-spaces/:id/output-vault,yes,Output Vault,Show proof/reuse,Outputs become reusable proof assets,artifact list and preview,sales_pdf,P1,No sensitive docs.
+S013,/business-spaces/:id/portal,yes,Client portal,Show client-facing delivery,A client portal from operational work,portal preview,sales_pdf,P1,Demo client.
+S014,/z-engine,yes,Z-Engine Studio,Show advanced creation,Z-Engine turns ideas into systems and assets,studio canvas and output,investor_deck,P0,Non-sensitive prompt.
+S015,/z-engine?tab=roam,yes,ROAM/motion,Show visual artifact creation,Motion-ready artifacts from Z-Engine,preview + controls,social_post,P1,Avoid proprietary prompts.
+S016,/instruction-lab,yes,Instruction Lab,Show prompt asset loop,Instructions become reusable assets,editor + saved asset,website,P1,Demo prompt.
+S017,/files,yes,Files/Vault,Show memory layer,"Vault stores generated outputs, files, and proof",file tree + preview,sales_pdf,P0,No private files.
+S018,/automation,yes,Automation flows,Show repeatable execution,Flows turn agent work into repeatable systems,flow tabs/templates,website,P1,Demo workflow.
+S019,/integrations,yes,Integrations,Show deploy everywhere,"Connect providers, channels, and business tools",connection grid,sales_pdf,P1,No tokens/accounts.
+S020,/marketplace,yes,Marketplace,Show distribution loop,Discover and install AI assets,marketplace grid,website,P1,Demo listings.
+S021,/arsenals,yes,Arsenals library,Show bundles,"Arsenals package agents, workflows, pages, and assets",card grid + create,investor_deck,P1,Demo bundles.
+S022,/arsenals/:id/edit,yes,Arsenal editor,Show product builder,Build a productized Arsenal without code,editor sections,demo_video,P1,Dummy data.
+S023,/a/:slug,no/mixed,Public Arsenal,Show buyer-facing bundle,A public Arsenal storefront,public landing + agents,website,P0,Public demo only.
+S024,/experiences,yes,Experiences,Show interactive tools,Experiences turn prompts into usable products,experience grid,website,P2,Demo only.
+S025,/pricing,no/yes,Pricing,Show monetization,Clear plans and credits,pricing cards + topups,website,P0,No portal data.
+S026,/partners/dashboard,yes,Partner dashboard,Show commission loop,Partners earn from paid Arsenal growth,stats + referral link blurred,sales_pdf,P1,Blur real links.
+S027,/revenue,yes,Creator revenue,Show payout path,Creators can monetize assets,revenue setup cards,sales_pdf,P1,No real payouts.
+S028,/admin,yes/admin,Admin AI Systems Map,Show control maturity,"Admin sees AI routes, keys, risk, and events",AI Systems tab,investor_deck,P0,Never show keys/users.
+S029,/admin,yes/admin,Revenue Readiness,Show monetization controls,"Stripe, credits, and Business Spaces readiness",revenue readiness panel,internal_map,P0,No secret IDs.
+S030,/admin/pages,yes/admin,Admin Pages,Show no-code page control,Launch pages without code,builder + preview,sales_pdf,P1,No unpublished client content.
+S031,/ecosystem,no/mixed,Ecosystem hub,Show programs/community,"Learning, programs, and proof paths",hero + cards,website,P2,Public-safe.
+S032,/programs/:id,no/mixed,Program page,Show education path,Programs turn users into certified builders,program hero,website,P2,Public program.
+S033,/verify/:verificationSlug,no,Credential verify,Show trust artifact,Credentials are verifiable,credential card,sales_pdf,P2,Demo credential.
+S034,/client-studio,yes/admin,Client Studio,Show service launcher,Client systems can be packaged and launched,studio cards,sales_pdf,P1,Demo clients.
+S035,/admin,yes/admin,Feature flags,Show launch control,Admin can stage features safely,flags table,internal_map,P1,No target user IDs.
