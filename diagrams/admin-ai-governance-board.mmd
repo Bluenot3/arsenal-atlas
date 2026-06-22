@@ -1,0 +1,22 @@
+flowchart TB
+  Admin[Admin Dashboard] --> KeyVault[API Keys]
+  Admin --> Providers[Providers Studio]
+  Admin --> Models[Model Routing]
+  Admin --> TierDefaults[Tier Defaults]
+  Admin --> Limits[Usage Limits]
+  Admin --> Flags[Feature Flags]
+  Admin --> Credits[Credits Panel]
+  Admin --> Events[AI Route Events]
+  Admin --> Audit[Audit Log]
+  KeyVault --> AIRoute[ai-route]
+  Providers --> AIRoute
+  Models --> AIRoute
+  TierDefaults --> AIRoute
+  Limits --> AIRoute
+  Flags --> AIRoute
+  Credits --> Ledger[Credit Ledger]
+  AIRoute --> Ledger
+  AIRoute --> Events
+  Events --> Audit
+  AIRoute --> Fallbacks[Fallback Pool]
+  Fallbacks --> Providers

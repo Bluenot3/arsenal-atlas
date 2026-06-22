@@ -1,0 +1,37 @@
+{
+  "title": "Arsenal Atlas Visual Expansion",
+  "purpose": "More diagrams, layouts, and data-visual specs for understanding Arsenal visually.",
+  "added_diagrams": [
+    "diagrams/admin-ai-governance-board.mmd",
+    "diagrams/agent-lifecycle-map.mmd",
+    "diagrams/business-space-screen-architecture.mmd",
+    "diagrams/data-model-feature-families.mmd",
+    "diagrams/feature-revenue-priority-quadrant.mmd",
+    "diagrams/marketplace-commerce-stack.mmd",
+    "diagrams/monetization-flywheel.mmd",
+    "diagrams/platform-mindmap.mmd",
+    "diagrams/revenue-roadmap-timeline.mmd",
+    "diagrams/route-cluster-subway-map.mmd",
+    "diagrams/screenshot-storyboard.mmd",
+    "diagrams/vault-proof-layer-map.mmd"
+  ],
+  "added_visual_docs": [
+    "executive-map/visual-atlas.md",
+    "visuals/visual-map-index.md",
+    "visuals/screen-layout-blueprints.md",
+    "visuals/feature-visual-taxonomy.md",
+    "visuals/data-visualization-dashboard-spec.md",
+    "visuals/investor-deck-frame-by-frame.md",
+    "visuals/route-map-visual-guide.md"
+  ],
+  "primary_storyboards": [
+    "Dashboard -> Business Spaces -> ROI -> Proposal -> Night Shift -> Output Vault -> Agent Builder -> Z-Engine -> Admin AI Map -> Pricing",
+    "Pain point -> Smart Solution Plan -> ROI -> Proposal -> Agents/Automations -> Outputs -> Portal/Export -> Revenue",
+    "Creator builds -> publishes -> user discovers -> pays/uses -> creator earns -> Arsenal commission"
+  ],
+  "safe_public_notes": [
+    "No secrets, private user data, customer data, environment values, or source chunks included.",
+    "Use demo accounts for screenshots.",
+    "Visuals are derived from existing Atlas summaries and public-safe route/file references."
+  ]
+}

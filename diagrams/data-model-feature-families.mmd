@@ -1,0 +1,13 @@
+flowchart TB
+  Agents[Agents family<br/>agents, versions, skills, memories] --> AI[AI execution<br/>ai_route_events, usage_events]
+  Business[Business Spaces family<br/>business_spaces, night_shifts, solution_plans] --> Work[Work execution<br/>operator_event_logs, flow_runs]
+  Vault[Vault family<br/>workspace_files, versions, knowledge_sources] --> Proof[Proof outputs]
+  Credits[Credit family<br/>credit_accounts, ledger, settings, topup_packs] --> Billing[Billing family<br/>subscribers, Stripe webhooks]
+  Admin[Admin family<br/>admins, api_keys, feature_flags, audit] --> AI
+  Marketplace[Marketplace family<br/>community, discover, prompt_packs, arsenals, products] --> Entitlements[Access and installs]
+  Partners[Partner family<br/>profiles, referrals, commissions] --> Payouts[Payouts and revenue]
+  Programs[Programs family<br/>enrollments, credentials, artifacts] --> Growth[Growth and trust]
+  AI --> Credits
+  Work --> Vault
+  Proof --> Marketplace
+  Billing --> Entitlements

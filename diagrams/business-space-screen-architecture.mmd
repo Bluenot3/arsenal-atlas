@@ -1,0 +1,21 @@
+flowchart TB
+  Shell[BusinessSpaceShell<br/>persistent side navigation] --> Overview[Overview<br/>status, readiness, next actions]
+  Shell --> Command[Command Center<br/>business cockpit]
+  Shell --> Strategy[Profile and Settings<br/>business model, goals, constraints]
+  Shell --> Planning[ROI + Smart Solution Plan<br/>value model]
+  Shell --> Proposal[Proposal / Launch Kit<br/>buyer-facing proof]
+  Shell --> Staff[Agents + AI Staff<br/>digital workforce]
+  Shell --> Work[Flex OS / Work Queue / Assignments<br/>execution management]
+  Shell --> Night[Night Shift<br/>scheduled proactive work]
+  Shell --> Channels[Channels + Connections<br/>deployment and integrations]
+  Shell --> Knowledge[Knowledge<br/>context and source material]
+  Shell --> Vault[Output Vault<br/>files, replays, proof artifacts]
+  Shell --> Portal[Client Portal / Export<br/>external deliverables]
+  Overview --> Planning
+  Planning --> Proposal
+  Proposal --> Staff
+  Staff --> Work
+  Work --> Vault
+  Night --> Vault
+  Vault --> Portal
+  Portal --> Revenue[Paid plan, setup fee, credits]

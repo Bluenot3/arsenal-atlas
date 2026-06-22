@@ -1,0 +1,15 @@
+flowchart LR
+  Inputs[Uploads<br/>URLs<br/>Knowledge<br/>Business profile] --> Vault[Files / Vault]
+  Agents[Agent runs] --> Outputs[Outputs]
+  ZEngine[Z-Engine artifacts] --> Outputs
+  Instruction[Instruction Lab assets] --> Outputs
+  Night[Night Shift runs] --> Replays[Execution replays]
+  Flex[Flex OS runs] --> Replays
+  Outputs --> Vault
+  Replays --> Vault
+  Vault --> Proof[Proof layer]
+  Proof --> Proposal[Proposal]
+  Proof --> Portal[Client portal]
+  Proof --> Export[Export / PDF / sales asset]
+  Proof --> Marketplace[Marketplace listing evidence]
+  Proof --> Admin[Admin review and audit]

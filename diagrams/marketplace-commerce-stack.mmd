@@ -1,0 +1,21 @@
+flowchart TD
+  Build[Creator builds asset] --> AssetType{Asset type}
+  AssetType --> Agent[Agent]
+  AssetType --> Arsenal[Arsenal]
+  AssetType --> PromptPack[Prompt Pack]
+  AssetType --> Skill[Skill]
+  AssetType --> Experience[Experience]
+  Agent --> Review[Admin / quality review]
+  Arsenal --> Review
+  PromptPack --> Review
+  Skill --> Review
+  Experience --> Review
+  Review --> Listing[Marketplace listing]
+  Listing --> Discovery[Discover / search / category]
+  Discovery --> Checkout[Checkout or gated install]
+  Checkout --> Entitlement[Access grant / install / entitlement]
+  Entitlement --> Usage[User uses asset]
+  Usage --> Attribution[Creator attribution]
+  Attribution --> Payout[Stripe Connect / commission]
+  Payout --> Flywheel[More creators and better listings]
+  Flywheel --> Build

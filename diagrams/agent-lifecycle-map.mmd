@@ -1,0 +1,17 @@
+stateDiagram-v2
+  [*] --> Idea
+  Idea --> DraftAgent: create from template, Z-Engine, or marketplace
+  DraftAgent --> Configure: instructions, model, tools, knowledge
+  Configure --> Test: chat, Tune, preview
+  Test --> SaveVersion: version and memory
+  SaveVersion --> DeployWeb: public page or embed
+  SaveVersion --> DeployChannel: Slack, Discord, SMS, WhatsApp, Telegram
+  SaveVersion --> AssignBusinessWork: Business Space assignment
+  DeployWeb --> LeadCapture
+  DeployChannel --> ChannelMessages
+  AssignBusinessWork --> WorkOutput
+  WorkOutput --> VaultProof
+  VaultProof --> ProposalOrPortal
+  ProposalOrPortal --> Monetize
+  Test --> Improve: feedback, logs, prompt packs
+  Improve --> Configure

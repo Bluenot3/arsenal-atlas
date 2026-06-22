@@ -17,6 +17,8 @@ Arsenal Atlas is the public map room for Arsenal / arena-x by ZEN AI Co. It summ
 ## Start Here
 
 - [Platform overview](executive-map/arsenal-platform-overview.md)
+- [Visual Atlas](executive-map/visual-atlas.md)
+- [Visual map index](visuals/visual-map-index.md)
 - [Platform galaxy](executive-map/platform-galaxy.md)
 - [Revenue map](executive-map/revenue-map.md)
 - [Non-coder platform guide](executive-map/non-coder-platform-guide.md)
@@ -25,3 +27,20 @@ Arsenal Atlas is the public map room for Arsenal / arena-x by ZEN AI Co. It summ
 ## Safety
 
 This repository is public. It includes file paths and behavior summaries only. It does not include secrets, environment contents, private user data, customer data, or large copied source files.
+
+## Visual Layer
+
+The second Atlas pass adds richer diagrams and layouts:
+
+- Platform mindmap
+- Feature revenue priority quadrant
+- Route-cluster subway map
+- Business Spaces screen architecture
+- Agent lifecycle map
+- Vault proof-layer map
+- Admin AI governance board
+- Marketplace commerce stack
+- Screenshot storyboard
+- Screen layout blueprints
+- Data visualization dashboard spec
+

@@ -140,3 +140,7 @@ Using the Arsenal Atlas repo as the source of truth, implement the highest-prior
 - Review public-safety wording before sharing externally.
 - Capture screenshots only from demo/sanitized accounts.
 - Treat direct AI routes, credit ledger, admin roles, and RLS as highest-risk follow-up areas.
+
+## Visual Expansion Addendum
+
+Added after initial cartography: richer visual Atlas files covering feature quadrants, route subway maps, Business Spaces screen architecture, agent lifecycle, Vault proof layer, admin AI governance, marketplace commerce, screenshot storyboards, screen layout blueprints, and a visual dashboard spec.
