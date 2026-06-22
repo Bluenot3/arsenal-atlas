@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-06-22T03:55:31.583556+00:00",
+  "generator": "tools/generate_readme_videos.py",
+  "format": "animated GIF",
+  "dimensions": {
+    "width": 800,
+    "height": 450,
+    "fps": 8,
+    "frames_per_video": 64
+  },
+  "source_data": [
+    "data/feature-inventory.csv",
+    "data/offer-catalog.csv",
+    "data/strategic-leverage-index.csv"
+  ],
+  "counts": {
+    "feature_rows_available": 28,
+    "offer_rows_available": 10,
+    "videos": 5
+  },
+  "videos": [
+    {
+      "title": "Platform Command Tour",
+      "file": "visuals/videos/platform-command-tour.gif",
+      "description": "A moving map of Arsenal's major platform clusters: agents, Business Spaces, AI Route, Vault, Marketplace, and Admin.",
+      "bytes": 744965
+    },
+    {
+      "title": "Business Space Revenue Loop",
+      "file": "visuals/videos/business-space-revenue-loop.gif",
+      "description": "Shows how a business pain point becomes plan, ROI, proposal, workspace, Night Shift, Vault proof, portal, and paid expansion.",
+      "bytes": 734505
+    },
+    {
+      "title": "AI Routing Control Plane",
+      "file": "visuals/videos/ai-routing-control-plane.gif",
+      "description": "Explains AI Route as the governance, model routing, credits, limits, fallback, and margin-control layer.",
+      "bytes": 736856
+    },
+    {
+      "title": "Market Now Offers",
+      "file": "visuals/videos/market-now-offers.gif",
+      "description": "Ranks the most marketable offers: Business Space Launch Kit, Night Shift, AI Routing Audit, Proof Vault, and Creator Storefront.",
+      "bytes": 754547
+    },
+    {
+      "title": "Proof To Pitch Pipeline",
+      "file": "visuals/videos/proof-to-pitch-pipeline.gif",
+      "description": "Turns AI execution into proof assets, portals, case studies, campaigns, and sales conversion.",
+      "bytes": 622992
+    }
+  ],
+  "public_safety": "Generated from Atlas summaries only. No secrets, customer data, screenshots, or production source copied into media."
+}

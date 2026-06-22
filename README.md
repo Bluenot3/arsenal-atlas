@@ -83,3 +83,28 @@ Core new datasets:
 - `data/campaign-angles.csv`
 - `data/market-now-battlecards.csv`
 - `data/investor-proof-map.csv`
+## Code-Generated Video README Layer
+
+The Atlas now includes code-generated animated GIF loops that render directly inside GitHub markdown:
+
+- [Video README](visuals/video-readme.md)
+- [Founder video storyboard README](visuals/founder-video-storyboard-readme.md)
+- [Video index](visuals/videos/README.md)
+
+Video loops:
+
+![Platform Command Tour](visuals/videos/platform-command-tour.gif)
+
+![Business Space Revenue Loop](visuals/videos/business-space-revenue-loop.gif)
+
+![AI Routing Control Plane](visuals/videos/ai-routing-control-plane.gif)
+
+![Market Now Offers](visuals/videos/market-now-offers.gif)
+
+![Proof To Pitch Pipeline](visuals/videos/proof-to-pitch-pipeline.gif)
+
+Regenerate them with:
+
+```powershell
+python tools/generate_readme_videos.py
+```

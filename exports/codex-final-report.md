@@ -156,3 +156,10 @@ Added a strategic leverage layer focused on rare capabilities, immediate marketa
 Best current wedge: AI Business Space Launch Kit. Use Smart Solution Plan as the lead magnet, Business Spaces as the workspace, Proof Vault as the trust layer, Night Shift as the premium automation upsell, and AI Route governance as the technical/high-ticket audit offer.
 
 Production repo modified: no
+## Code-Generated Video README Addendum
+
+Added a reproducible code-generated video layer: five animated GIF README loops, a video README gallery, a founder storyboard README, a video index, a generator script, and a manifest.
+
+The generated loops cover platform architecture, Business Space revenue flow, AI Route governance, market-now offers, and the proof-to-pitch pipeline.
+
+Production repo modified: no
