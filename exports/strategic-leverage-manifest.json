@@ -1,0 +1,53 @@
+{
+  "generated_at": "2026-06-22T03:11:09.842846+00:00",
+  "name": "Arsenal Atlas Strategic Leverage Layer",
+  "source_inputs": [
+    "data/feature-inventory.csv",
+    "data/monetization-surfaces.csv",
+    "data/risk-register.csv"
+  ],
+  "counts": {
+    "feature_clusters": 28,
+    "monetization_surfaces": 17,
+    "risk_records": 20,
+    "strategic_leverage_rows": 12,
+    "offers": 10,
+    "moats": 8,
+    "loops": 5,
+    "actions": 10,
+    "campaigns": 6,
+    "graphics": 7
+  },
+  "new_files": [
+    "executive-map/deep-leverage-brief.md",
+    "executive-map/marketable-offer-catalog.md",
+    "executive-map/moat-and-compounding-loops.md",
+    "executive-map/strategic-intelligence-command-deck.md",
+    "backlog/marketing-launch-plays.md",
+    "backlog/founder-action-dashboard.md",
+    "visuals/strategic-leverage-visual-system.md",
+    "visuals/rare-capabilities-gallery.md",
+    "visuals/strategic-leverage-dashboard.html",
+    "visuals/graphics/rare-capability-radar.svg",
+    "visuals/graphics/offer-stack-board.svg",
+    "visuals/graphics/leverage-compounding-loops.svg",
+    "visuals/graphics/founder-action-dashboard.svg",
+    "visuals/graphics/market-now-battlecards.svg",
+    "visuals/graphics/arsenal-moat-map.svg",
+    "visuals/graphics/proof-to-pitch-pipeline.svg",
+    "data/strategic-leverage-index.csv",
+    "data/offer-catalog.csv",
+    "data/moat-map.csv",
+    "data/compounding-loop-map.csv",
+    "data/founder-action-queue.csv",
+    "data/campaign-angles.csv",
+    "data/market-now-battlecards.csv",
+    "data/investor-proof-map.csv",
+    "diagrams/strategic-leverage-map.mmd",
+    "diagrams/marketable-offer-stack.mmd",
+    "diagrams/compounding-revenue-loops.mmd",
+    "diagrams/moat-layer-model.mmd",
+    "diagrams/founder-action-operating-system.mmd"
+  ],
+  "headline": "Lead with AI Business Space Launch Kit, then expand through Night Shift, Proof Vault, AI Route governance, partner growth, and creator storefronts."
+}

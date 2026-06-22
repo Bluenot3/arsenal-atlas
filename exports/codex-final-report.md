@@ -148,3 +148,11 @@ Added after initial cartography: richer visual Atlas files covering feature quad
 ## Premium Graphics Addendum
 
 Added deck-ready SVG graphics, a GitHub gallery, a standalone HTML visual dashboard, and superlayout concepts to better convey Arsenal's features, components, opportunities, revenue paths, control plane, and proof layer.
+
+## Strategic Leverage Expansion Addendum
+
+Added a strategic leverage layer focused on rare capabilities, immediate marketable offers, founder action queues, campaign angles, moat layers, compounding loops, investor proof points, and seven new deck-ready SVG graphics.
+
+Best current wedge: AI Business Space Launch Kit. Use Smart Solution Plan as the lead magnet, Business Spaces as the workspace, Proof Vault as the trust layer, Night Shift as the premium automation upsell, and AI Route governance as the technical/high-ticket audit offer.
+
+Production repo modified: no

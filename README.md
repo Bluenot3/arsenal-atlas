@@ -60,3 +60,26 @@ The latest visual pass adds deck-ready SVG graphics and a standalone HTML dashbo
 - Marketplace Commerce Flywheel
 - Data Layer Feature Families
 
+## Strategic Leverage Layer
+
+The newest Atlas layer adds founder-grade strategic leverage and marketing intelligence:
+
+- [Deep leverage brief](executive-map/deep-leverage-brief.md)
+- [Strategic intelligence command deck](executive-map/strategic-intelligence-command-deck.md)
+- [Marketable offer catalog](executive-map/marketable-offer-catalog.md)
+- [Moat and compounding loops](executive-map/moat-and-compounding-loops.md)
+- [Rare capabilities gallery](visuals/rare-capabilities-gallery.md)
+- [Strategic leverage dashboard](visuals/strategic-leverage-dashboard.html)
+- [Founder action dashboard](backlog/founder-action-dashboard.md)
+- [Marketing launch plays](backlog/marketing-launch-plays.md)
+
+Core new datasets:
+
+- `data/strategic-leverage-index.csv`
+- `data/offer-catalog.csv`
+- `data/moat-map.csv`
+- `data/compounding-loop-map.csv`
+- `data/founder-action-queue.csv`
+- `data/campaign-angles.csv`
+- `data/market-now-battlecards.csv`
+- `data/investor-proof-map.csv`

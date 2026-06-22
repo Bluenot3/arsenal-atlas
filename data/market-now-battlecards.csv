@@ -1,0 +1,6 @@
+card_id,name,buyer_trigger,killer_demo,what_to_sell,evidence,first_cta
+BC-001,Business Space Launch OS,A business wants AI but cannot define what to build first.,Pain point -> plan -> ROI -> proposal -> workspace -> portal.,Setup fee plus monthly operating system tier.,"F005, F006, F009, F020",Get your AI operating plan.
+BC-002,Night Shift Operator Desk,A founder has repeated work but not enough staff or time.,"Queue overnight work, replay it, approve outputs, save to Vault.",Premium automation subscription plus credits.,"F007, F008, F013",Run one Night Shift pilot.
+BC-003,AI Route Margin Control,"AI usage is growing but cost, keys, and model choices are unmanaged.","Admin model routing, tier defaults, usage limits, credit ledger.",AI routing audit and managed control plane.,"F020, F022, F023",Audit your AI route map.
+BC-004,Proof Vault Delivery System,Clients want evidence that AI work is real and reusable.,"Source file, AI output, replay, proposal, portal export.",Proof Vault portal setup.,"F009, F013, F014",Build a proof bundle.
+BC-005,Creator Arsenal Storefront,A creator has expertise but no platform-native AI product bundle.,"Public Arsenal, paid access, grants, marketplace, revenue panel.",Storefront setup plus commission.,"F017, F018, F021",Package your first Arsenal.

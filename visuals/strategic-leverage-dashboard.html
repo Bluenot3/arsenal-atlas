@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Arsenal Atlas Strategic Leverage Dashboard</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, Segoe UI, Arial, sans-serif;
+      background: #06111f;
+      color: #f8fafc;
+    }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at 20% 0%, rgba(45, 212, 191, 0.16), transparent 32%),
+        radial-gradient(circle at 90% 15%, rgba(245, 158, 11, 0.16), transparent 32%),
+        #06111f;
+    }
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 42px 22px 80px;
+    }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 1.35fr) minmax(280px, 0.65fr);
+      gap: 24px;
+      align-items: end;
+      margin-bottom: 28px;
+    }
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(34px, 6vw, 72px);
+      line-height: 0.96;
+      letter-spacing: 0;
+    }
+    p {
+      color: #cbd5e1;
+      line-height: 1.55;
+      margin: 0;
+    }
+    .stat-grid, .graphic-grid, .link-grid {
+      display: grid;
+      gap: 16px;
+    }
+    .stat-grid {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      margin: 22px 0 30px;
+    }
+    .stat, .panel, .link-card {
+      background: rgba(15, 23, 42, 0.78);
+      border: 1px solid rgba(148, 163, 184, 0.28);
+      border-radius: 14px;
+      box-shadow: 0 18px 48px rgba(2, 6, 23, 0.36);
+    }
+    .stat { padding: 18px; }
+    .stat strong { display: block; font-size: 32px; color: #2dd4bf; }
+    .stat span { color: #94a3b8; font-size: 13px; }
+    .graphic-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .panel { padding: 14px; }
+    .panel h2 { margin: 6px 6px 12px; font-size: 20px; }
+    .panel img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+      background: #020617;
+    }
+    .link-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 18px;
+    }
+    .link-card {
+      display: block;
+      padding: 18px;
+      color: #f8fafc;
+      text-decoration: none;
+    }
+    .link-card span { display: block; color: #94a3b8; margin-top: 8px; font-size: 13px; }
+    @media (max-width: 900px) {
+      header, .stat-grid, .graphic-grid, .link-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <section>
+      <h1>Strategic Leverage Dashboard</h1>
+      <p>Atlas-derived intelligence for packaging Arsenal into rare, marketable, high-leverage offers. This is public-safe planning material: no secrets, customer data, or production code.</p>
+    </section>
+    <section class="panel">
+      <h2>Best wedge</h2>
+      <p>Lead with the AI Business Space Launch Kit, then attach Night Shift, Proof Vault, AI routing governance, partner referrals, and creator storefronts.</p>
+    </section>
+  </header>
+  <section class="stat-grid">
+    <div class="stat"><strong>12</strong><span>rare capability plays</span></div>
+    <div class="stat"><strong>10</strong><span>marketable offers</span></div>
+    <div class="stat"><strong>8</strong><span>moat layers</span></div>
+    <div class="stat"><strong>7</strong><span>new deck-ready graphics</span></div>
+  </section>
+  <section class="graphic-grid">
+    <article class="panel"><h2>Rare Capability Radar</h2><img src="graphics/rare-capability-radar.svg" alt="Rare Capability Radar"></article>
+    <article class="panel"><h2>Offer Stack Board</h2><img src="graphics/offer-stack-board.svg" alt="Offer Stack Board"></article>
+    <article class="panel"><h2>Leverage Compounding Loops</h2><img src="graphics/leverage-compounding-loops.svg" alt="Leverage Compounding Loops"></article>
+    <article class="panel"><h2>Founder Action Dashboard</h2><img src="graphics/founder-action-dashboard.svg" alt="Founder Action Dashboard"></article>
+    <article class="panel"><h2>Market Now Battlecards</h2><img src="graphics/market-now-battlecards.svg" alt="Market Now Battlecards"></article>
+    <article class="panel"><h2>Arsenal Moat Map</h2><img src="graphics/arsenal-moat-map.svg" alt="Arsenal Moat Map"></article>
+    <article class="panel"><h2>Proof To Pitch Pipeline</h2><img src="graphics/proof-to-pitch-pipeline.svg" alt="Proof To Pitch Pipeline"></article>
+  </section>
+  <section class="link-grid">
+    <a class="link-card" href="../executive-map/deep-leverage-brief.md">Deep Leverage Brief<span>Rare capabilities, best wedge, and market-now read.</span></a>
+    <a class="link-card" href="../executive-map/marketable-offer-catalog.md">Offer Catalog<span>Packaged offers tied to demo routes, proof, and gaps.</span></a>
+    <a class="link-card" href="../backlog/founder-action-dashboard.md">Founder Action Queue<span>Execution steps for proof, campaigns, partners, and safety.</span></a>
+  </section>
+</main>
+</body>
+</html>
