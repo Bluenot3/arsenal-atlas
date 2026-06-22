@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1010" viewBox="0 0 1800 1010" role="img" aria-label="Admin Control Tower">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071018"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#10251f"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+    <linearGradient id="violet" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#fef08a"/></linearGradient>
+    <linearGradient id="green" x1="0" x2="1"><stop offset="0" stop-color="#16a34a"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .label { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial; }
+      .small { font-size: 15px; fill: #9fb0c8; font-weight: 600; }
+      .tiny { font-size: 12px; fill: #7f91aa; font-weight: 700; letter-spacing: .08em; }
+      .card { fill: rgba(15, 23, 42, .82); stroke: rgba(148, 163, 184, .34); stroke-width: 1.2; }
+      .card2 { fill: rgba(8, 13, 24, .72); stroke: rgba(45, 212, 191, .32); stroke-width: 1.4; }
+      .route { fill: rgba(14, 165, 233, .13); stroke: rgba(34, 211, 238, .52); stroke-width: 1; }
+      .risk { fill: rgba(244, 63, 94, .14); stroke: rgba(251, 113, 133, .5); stroke-width: 1; }
+      .money { fill: rgba(245, 158, 11, .14); stroke: rgba(251, 191, 36, .55); stroke-width: 1; }
+    </style>
+    
+  </defs>
+  <rect width="1800" height="1010" fill="url(#bg)"/>
+  <g opacity=".16">
+    <path d="M0 120 C300 30 520 220 860 100 S1450 40 1800 150" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <path d="M0 870 C360 750 720 970 1800 830" fill="none" stroke="#34d399" stroke-width="2"/>
+    <path d="M120 0 C60 300 210 600 80 1010" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+  </g>
+  <text x="70" y="78" class="label" font-size="38" font-weight="900" fill="#f8fafc">Admin Control Tower</text>
+  <text x="72" y="112" class="label" font-size="18" font-weight="650" fill="#9fb0c8">The operating board ZEN uses to manage users, AI, credits, revenue, and product surfaces</text>
+  <rect x="270" y="250" width="220" height="520" rx="28" fill="rgba(15,23,42,.74)" stroke="rgba(148,163,184,.32)" filter="url(#shadow)"/>
+<rect x="288" y="268" width="184" height="42" rx="14" fill="url(#violet)" opacity=".9"/>
+<text x="380" y="295" text-anchor="middle" class="label" font-size="15" font-weight="950" fill="#f8fafc">Executive Controls</text>
+<rect x="294" y="340" width="94" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="341.0" y="360" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Command</text>
+<rect x="294" y="388" width="194" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="391.0" y="408" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Revenue readiness</text>
+<rect x="294" y="436" width="154" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="371.0" y="456" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">System health</text>
+<rect x="530" y="305" width="220" height="480" rx="28" fill="rgba(15,23,42,.74)" stroke="rgba(148,163,184,.32)" filter="url(#shadow)"/>
+<rect x="548" y="323" width="184" height="42" rx="14" fill="url(#violet)" opacity=".9"/>
+<text x="640" y="350" text-anchor="middle" class="label" font-size="15" font-weight="950" fill="#f8fafc">User And Trust</text>
+<rect x="554" y="395" width="74" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="591.0" y="415" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Users</text>
+<rect x="554" y="443" width="124" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="616.0" y="463" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Admin team</text>
+<rect x="554" y="491" width="94" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="601.0" y="511" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">View-as</text>
+<rect x="554" y="539" width="74" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="591.0" y="559" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Audit</text>
+<rect x="790" y="360" width="220" height="440" rx="28" fill="rgba(15,23,42,.74)" stroke="rgba(148,163,184,.32)" filter="url(#shadow)"/>
+<rect x="808" y="378" width="184" height="42" rx="14" fill="url(#violet)" opacity=".9"/>
+<text x="900" y="405" text-anchor="middle" class="label" font-size="15" font-weight="950" fill="#f8fafc">AI Governance</text>
+<rect x="814" y="450" width="104" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="866.0" y="470" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">API keys</text>
+<rect x="814" y="498" width="114" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="871.0" y="518" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Providers</text>
+<rect x="814" y="546" width="154" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="891.0" y="566" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Model routing</text>
+<rect x="814" y="594" width="154" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="891.0" y="614" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Tier defaults</text>
+<rect x="814" y="642" width="84" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="856.0" y="662" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Limits</text>
+<rect x="1050" y="415" width="220" height="400" rx="28" fill="rgba(15,23,42,.74)" stroke="rgba(148,163,184,.32)" filter="url(#shadow)"/>
+<rect x="1068" y="433" width="184" height="42" rx="14" fill="url(#violet)" opacity=".9"/>
+<text x="1160" y="460" text-anchor="middle" class="label" font-size="15" font-weight="950" fill="#f8fafc">Revenue Systems</text>
+<rect x="1074" y="505" width="94" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1121.0" y="525" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Credits</text>
+<rect x="1074" y="553" width="154" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1151.0" y="573" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Subscriptions</text>
+<rect x="1074" y="601" width="104" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1126.0" y="621" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Partners</text>
+<rect x="1074" y="649" width="94" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1121.0" y="669" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Payouts</text>
+<rect x="1074" y="697" width="134" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1141.0" y="717" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Promo codes</text>
+<rect x="1310" y="470" width="220" height="360" rx="28" fill="rgba(15,23,42,.74)" stroke="rgba(148,163,184,.32)" filter="url(#shadow)"/>
+<rect x="1328" y="488" width="184" height="42" rx="14" fill="url(#violet)" opacity=".9"/>
+<text x="1420" y="515" text-anchor="middle" class="label" font-size="15" font-weight="950" fill="#f8fafc">Product Operations</text>
+<rect x="1334" y="560" width="174" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1421.0" y="580" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Business Spaces</text>
+<rect x="1334" y="608" width="114" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1391.0" y="628" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Operators</text>
+<rect x="1334" y="656" width="134" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1401.0" y="676" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Experiences</text>
+<rect x="1334" y="704" width="134" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1401.0" y="724" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Admin pages</text>
+<rect x="1334" y="752" width="114" height="30" rx="15" fill="rgba(139,92,246,.14)" stroke="rgba(167,139,250,.42)" stroke-width="1"/><text x="1391.0" y="772" text-anchor="middle" class="label" font-size="12" font-weight="850" fill="#ddd6fe">Zen Daily</text>
+<path d="M180 850 H1620" stroke="url(#gold)" stroke-width="7" stroke-linecap="round"/>
+<text x="900" y="905" text-anchor="middle" class="label" font-size="22" font-weight="950" fill="#fde68a">Admin is the business control tower: cost, trust, launch control, and monetization.</text>
+</svg>

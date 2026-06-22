@@ -19,6 +19,8 @@ Arsenal Atlas is the public map room for Arsenal / arena-x by ZEN AI Co. It summ
 - [Platform overview](executive-map/arsenal-platform-overview.md)
 - [Visual Atlas](executive-map/visual-atlas.md)
 - [Visual map index](visuals/visual-map-index.md)
+- [Premium graphics gallery](visuals/premium-graphics-gallery.md)
+- [Atlas visual dashboard](visuals/atlas-visual-dashboard.html)
 - [Platform galaxy](executive-map/platform-galaxy.md)
 - [Revenue map](executive-map/revenue-map.md)
 - [Non-coder platform guide](executive-map/non-coder-platform-guide.md)
@@ -43,4 +45,18 @@ The second Atlas pass adds richer diagrams and layouts:
 - Screenshot storyboard
 - Screen layout blueprints
 - Data visualization dashboard spec
+
+## Premium Graphics
+
+The latest visual pass adds deck-ready SVG graphics and a standalone HTML dashboard:
+
+- Arsenal Platform Command Map
+- Business Spaces Revenue Engine
+- AI Feature Control Plane
+- Revenue Opportunity Matrix
+- Feature Ecosystem Matrix
+- Screenshot Capture Board
+- Admin Control Tower
+- Marketplace Commerce Flywheel
+- Data Layer Feature Families
 

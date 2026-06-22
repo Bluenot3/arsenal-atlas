@@ -144,3 +144,7 @@ Using the Arsenal Atlas repo as the source of truth, implement the highest-prior
 ## Visual Expansion Addendum
 
 Added after initial cartography: richer visual Atlas files covering feature quadrants, route subway maps, Business Spaces screen architecture, agent lifecycle, Vault proof layer, admin AI governance, marketplace commerce, screenshot storyboards, screen layout blueprints, and a visual dashboard spec.
+
+## Premium Graphics Addendum
+
+Added deck-ready SVG graphics, a GitHub gallery, a standalone HTML visual dashboard, and superlayout concepts to better convey Arsenal's features, components, opportunities, revenue paths, control plane, and proof layer.

@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="980" viewBox="0 0 1800 980" role="img" aria-label="Feature Ecosystem Matrix">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071018"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#10251f"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+    <linearGradient id="violet" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#fef08a"/></linearGradient>
+    <linearGradient id="green" x1="0" x2="1"><stop offset="0" stop-color="#16a34a"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .label { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial; }
+      .small { font-size: 15px; fill: #9fb0c8; font-weight: 600; }
+      .tiny { font-size: 12px; fill: #7f91aa; font-weight: 700; letter-spacing: .08em; }
+      .card { fill: rgba(15, 23, 42, .82); stroke: rgba(148, 163, 184, .34); stroke-width: 1.2; }
+      .card2 { fill: rgba(8, 13, 24, .72); stroke: rgba(45, 212, 191, .32); stroke-width: 1.4; }
+      .route { fill: rgba(14, 165, 233, .13); stroke: rgba(34, 211, 238, .52); stroke-width: 1; }
+      .risk { fill: rgba(244, 63, 94, .14); stroke: rgba(251, 113, 133, .5); stroke-width: 1; }
+      .money { fill: rgba(245, 158, 11, .14); stroke: rgba(251, 191, 36, .55); stroke-width: 1; }
+    </style>
+    
+  </defs>
+  <rect width="1800" height="980" fill="url(#bg)"/>
+  <g opacity=".16">
+    <path d="M0 120 C300 30 520 220 860 100 S1450 40 1800 150" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <path d="M0 840 C360 720 720 940 1800 800" fill="none" stroke="#34d399" stroke-width="2"/>
+    <path d="M120 0 C60 300 210 600 80 980" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+  </g>
+  <text x="70" y="78" class="label" font-size="38" font-weight="900" fill="#f8fafc">Feature Ecosystem Matrix</text>
+  <text x="72" y="112" class="label" font-size="18" font-weight="650" fill="#9fb0c8">A product-family map across frontend, services, edge functions, data, and revenue</text>
+  <rect x="240" y="140" width="208" height="50" rx="14" fill="rgba(34,211,238,.14)" stroke="rgba(34,211,238,.4)"/>
+<text x="344.0" y="171" text-anchor="middle" class="label" font-size="15" font-weight="900" fill="#b7f7ff">Frontend</text>
+<rect x="460" y="140" width="208" height="50" rx="14" fill="rgba(34,211,238,.14)" stroke="rgba(34,211,238,.4)"/>
+<text x="564.0" y="171" text-anchor="middle" class="label" font-size="15" font-weight="900" fill="#b7f7ff">Product UI</text>
+<rect x="680" y="140" width="208" height="50" rx="14" fill="rgba(34,211,238,.14)" stroke="rgba(34,211,238,.4)"/>
+<text x="784.0" y="171" text-anchor="middle" class="label" font-size="15" font-weight="900" fill="#b7f7ff">Services</text>
+<rect x="900" y="140" width="208" height="50" rx="14" fill="rgba(34,211,238,.14)" stroke="rgba(34,211,238,.4)"/>
+<text x="1004.0" y="171" text-anchor="middle" class="label" font-size="15" font-weight="900" fill="#b7f7ff">Edge</text>
+<rect x="1120" y="140" width="208" height="50" rx="14" fill="rgba(34,211,238,.14)" stroke="rgba(34,211,238,.4)"/>
+<text x="1224.0" y="171" text-anchor="middle" class="label" font-size="15" font-weight="900" fill="#b7f7ff">Database</text>
+<rect x="1340" y="140" width="208" height="50" rx="14" fill="rgba(34,211,238,.14)" stroke="rgba(34,211,238,.4)"/>
+<text x="1444.0" y="171" text-anchor="middle" class="label" font-size="15" font-weight="900" fill="#b7f7ff">Money</text>
+<text x="80" y="260" class="label" font-size="20" font-weight="950" fill="#f8fafc">Agents</text>
+<rect x="240" y="210" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="344.0" y="249" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">routes</text>
+<rect x="460" y="210" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="564.0" y="249" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">components</text>
+<rect x="680" y="210" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="784.0" y="249" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">services</text>
+<rect x="900" y="210" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1004.0" y="249" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">edge</text>
+<rect x="1120" y="210" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1224.0" y="249" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">tables</text>
+<rect x="1340" y="210" width="208" height="64" rx="16" fill="rgba(245,158,11,.16)" stroke="rgba(251,191,36,.48)"/>
+<text x="1444.0" y="249" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">revenue</text>
+<text x="80" y="346" class="label" font-size="20" font-weight="950" fill="#f8fafc">Business Spaces</text>
+<rect x="240" y="296" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="344.0" y="335" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">routes</text>
+<rect x="460" y="296" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="564.0" y="335" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">components</text>
+<rect x="680" y="296" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="784.0" y="335" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">services</text>
+<rect x="900" y="296" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1004.0" y="335" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">edge</text>
+<rect x="1120" y="296" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1224.0" y="335" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">tables</text>
+<rect x="1340" y="296" width="208" height="64" rx="16" fill="rgba(245,158,11,.16)" stroke="rgba(251,191,36,.48)"/>
+<text x="1444.0" y="335" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">revenue</text>
+<text x="80" y="432" class="label" font-size="20" font-weight="950" fill="#f8fafc">Z-Engine</text>
+<rect x="240" y="382" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="344.0" y="421" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">routes</text>
+<rect x="460" y="382" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="564.0" y="421" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">studio</text>
+<rect x="680" y="382" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="784.0" y="421" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">stream</text>
+<rect x="900" y="382" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1004.0" y="421" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">edge</text>
+<rect x="1120" y="382" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1224.0" y="421" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">projects</text>
+<rect x="1340" y="382" width="208" height="64" rx="16" fill="rgba(245,158,11,.16)" stroke="rgba(251,191,36,.48)"/>
+<text x="1444.0" y="421" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">credits</text>
+<text x="80" y="518" class="label" font-size="20" font-weight="950" fill="#f8fafc">Vault</text>
+<rect x="240" y="468" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="344.0" y="507" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">routes</text>
+<rect x="460" y="468" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="564.0" y="507" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">file UI</text>
+<rect x="680" y="468" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="784.0" y="507" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">services</text>
+<rect x="900" y="468" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1004.0" y="507" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">workspace-fs</text>
+<rect x="1120" y="468" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1224.0" y="507" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">files</text>
+<rect x="1340" y="468" width="208" height="64" rx="16" fill="rgba(245,158,11,.16)" stroke="rgba(251,191,36,.48)"/>
+<text x="1444.0" y="507" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">proof</text>
+<text x="80" y="604" class="label" font-size="20" font-weight="950" fill="#f8fafc">Automation</text>
+<rect x="240" y="554" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="344.0" y="593" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">routes</text>
+<rect x="460" y="554" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="564.0" y="593" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">flow UI</text>
+<rect x="680" y="554" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="784.0" y="593" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">services</text>
+<rect x="900" y="554" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1004.0" y="593" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">executor</text>
+<rect x="1120" y="554" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1224.0" y="593" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">runs</text>
+<rect x="1340" y="554" width="208" height="64" rx="16" fill="rgba(245,158,11,.16)" stroke="rgba(251,191,36,.48)"/>
+<text x="1444.0" y="593" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">credits</text>
+<text x="80" y="690" class="label" font-size="20" font-weight="950" fill="#f8fafc">Marketplace</text>
+<rect x="240" y="640" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="344.0" y="679" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">routes</text>
+<rect x="460" y="640" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="564.0" y="679" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">cards</text>
+<rect x="680" y="640" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="784.0" y="679" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">services</text>
+<rect x="900" y="640" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1004.0" y="679" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">checkout</text>
+<rect x="1120" y="640" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1224.0" y="679" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">assets</text>
+<rect x="1340" y="640" width="208" height="64" rx="16" fill="rgba(245,158,11,.16)" stroke="rgba(251,191,36,.48)"/>
+<text x="1444.0" y="679" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">commission</text>
+<text x="80" y="776" class="label" font-size="20" font-weight="950" fill="#f8fafc">Admin</text>
+<rect x="240" y="726" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="344.0" y="765" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">routes</text>
+<rect x="460" y="726" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="564.0" y="765" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">panels</text>
+<rect x="680" y="726" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="784.0" y="765" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">services</text>
+<rect x="900" y="726" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1004.0" y="765" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">functions</text>
+<rect x="1120" y="726" width="208" height="64" rx="16" fill="rgba(45,212,191,.14)" stroke="rgba(45,212,191,.38)"/>
+<text x="1224.0" y="765" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">control</text>
+<rect x="1340" y="726" width="208" height="64" rx="16" fill="rgba(245,158,11,.16)" stroke="rgba(251,191,36,.48)"/>
+<text x="1444.0" y="765" text-anchor="middle" class="label" font-size="15" font-weight="850" fill="#dce7ff">trust</text>
+<rect x="1435" y="250" width="285" height="350" rx="18" class="card2" filter="url(#shadow)"/>
+<rect x="1435" y="250" width="7" height="350" rx="4" fill="url(#violet)"/>
+<text x="1459" y="284" class="label" font-size="20" font-weight="850" fill="#f8fafc">How to read</text>
+<text x="1459" y="316" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Each row is a product family</text>
+<text x="1459" y="340" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Each column is an architecture layer</text>
+<text x="1459" y="364" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Money column marks monetization path</text>
+<text x="1459" y="388" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Empty/weak cells become backlog</text>
+<rect x="1435" y="640" width="285" height="210" rx="18" class="card2" filter="url(#shadow)"/>
+<rect x="1435" y="640" width="7" height="210" rx="4" fill="url(#green)"/>
+<text x="1459" y="674" class="label" font-size="20" font-weight="850" fill="#f8fafc">Strongest rows</text>
+<text x="1459" y="706" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Business Spaces</text>
+<text x="1459" y="730" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Agents</text>
+<text x="1459" y="754" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Admin AI control</text>
+<text x="1459" y="778" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Vault proof layer</text>
+</svg>

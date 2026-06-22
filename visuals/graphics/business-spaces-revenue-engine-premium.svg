@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1040" viewBox="0 0 1800 1040" role="img" aria-label="Business Spaces Revenue Engine">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#071018"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#10251f"/>
+    </linearGradient>
+    <linearGradient id="cyan" x1="0" x2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#2dd4bf"/></linearGradient>
+    <linearGradient id="violet" x1="0" x2="1"><stop offset="0" stop-color="#8b5cf6"/><stop offset="1" stop-color="#06b6d4"/></linearGradient>
+    <linearGradient id="gold" x1="0" x2="1"><stop offset="0" stop-color="#f59e0b"/><stop offset="1" stop-color="#fef08a"/></linearGradient>
+    <linearGradient id="green" x1="0" x2="1"><stop offset="0" stop-color="#16a34a"/><stop offset="1" stop-color="#34d399"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .label { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial; }
+      .small { font-size: 15px; fill: #9fb0c8; font-weight: 600; }
+      .tiny { font-size: 12px; fill: #7f91aa; font-weight: 700; letter-spacing: .08em; }
+      .card { fill: rgba(15, 23, 42, .82); stroke: rgba(148, 163, 184, .34); stroke-width: 1.2; }
+      .card2 { fill: rgba(8, 13, 24, .72); stroke: rgba(45, 212, 191, .32); stroke-width: 1.4; }
+      .route { fill: rgba(14, 165, 233, .13); stroke: rgba(34, 211, 238, .52); stroke-width: 1; }
+      .risk { fill: rgba(244, 63, 94, .14); stroke: rgba(251, 113, 133, .5); stroke-width: 1; }
+      .money { fill: rgba(245, 158, 11, .14); stroke: rgba(251, 191, 36, .55); stroke-width: 1; }
+    </style>
+    
+  </defs>
+  <rect width="1800" height="1040" fill="url(#bg)"/>
+  <g opacity=".16">
+    <path d="M0 120 C300 30 520 220 860 100 S1450 40 1800 150" fill="none" stroke="#22d3ee" stroke-width="2"/>
+    <path d="M0 900 C360 780 720 1000 1800 860" fill="none" stroke="#34d399" stroke-width="2"/>
+    <path d="M120 0 C60 300 210 600 80 1040" fill="none" stroke="#8b5cf6" stroke-width="2"/>
+  </g>
+  <text x="70" y="78" class="label" font-size="38" font-weight="900" fill="#f8fafc">Business Spaces Revenue Engine</text>
+  <text x="72" y="112" class="label" font-size="18" font-weight="650" fill="#9fb0c8">The clearest commercial path: pain point to paid execution and proof</text>
+  <rect x="70" y="300" width="176" height="154" rx="20" class="card" filter="url(#shadow)"/>
+<rect x="88" y="318" width="44" height="44" rx="14" fill="url(#gold)" opacity=".9"/>
+<text x="110" y="348" text-anchor="middle" class="label" font-size="20" font-weight="950" fill="#08111e">1</text>
+<text font-size="20" font-weight="900" fill="#f8fafc"><tspan x="88" y="392">Pain Point</tspan></text>
+<text font-size="13" font-weight="650" fill="#9fb0c8"><tspan x="88" y="422">business need,</tspan><tspan x="88" y="440">bottleneck, lead, ops</tspan><tspan x="88" y="458">gap</tspan></text>
+<path d="M246 377 H282" stroke="url(#cyan)" stroke-width="4" stroke-linecap="round"/>
+<path d="M274 369 L288 377 L274 385" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="284" y="300" width="176" height="154" rx="20" class="card" filter="url(#shadow)"/>
+<rect x="302" y="318" width="44" height="44" rx="14" fill="url(#gold)" opacity=".9"/>
+<text x="324" y="348" text-anchor="middle" class="label" font-size="20" font-weight="950" fill="#08111e">2</text>
+<text font-size="20" font-weight="900" fill="#f8fafc"><tspan x="302" y="392">Smart Plan</tspan></text>
+<text font-size="13" font-weight="650" fill="#9fb0c8"><tspan x="302" y="422">AI-generated solution</tspan><tspan x="302" y="440">plan and module mix</tspan></text>
+<path d="M460 377 H496" stroke="url(#cyan)" stroke-width="4" stroke-linecap="round"/>
+<path d="M488 369 L502 377 L488 385" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="498" y="300" width="176" height="154" rx="20" class="card" filter="url(#shadow)"/>
+<rect x="516" y="318" width="44" height="44" rx="14" fill="url(#gold)" opacity=".9"/>
+<text x="538" y="348" text-anchor="middle" class="label" font-size="20" font-weight="950" fill="#08111e">3</text>
+<text font-size="20" font-weight="900" fill="#f8fafc"><tspan x="516" y="392">ROI Model</tspan></text>
+<text font-size="13" font-weight="650" fill="#9fb0c8"><tspan x="516" y="422">time saved, value,</tspan><tspan x="516" y="440">payback, readiness</tspan></text>
+<path d="M674 377 H710" stroke="url(#cyan)" stroke-width="4" stroke-linecap="round"/>
+<path d="M702 369 L716 377 L702 385" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="712" y="300" width="176" height="154" rx="20" class="card" filter="url(#shadow)"/>
+<rect x="730" y="318" width="44" height="44" rx="14" fill="url(#gold)" opacity=".9"/>
+<text x="752" y="348" text-anchor="middle" class="label" font-size="20" font-weight="950" fill="#08111e">4</text>
+<text font-size="20" font-weight="900" fill="#f8fafc"><tspan x="730" y="392">Proposal</tspan></text>
+<text font-size="13" font-weight="650" fill="#9fb0c8"><tspan x="730" y="422">launch kit, scope,</tspan><tspan x="730" y="440">terms, proof</tspan></text>
+<path d="M888 377 H924" stroke="url(#cyan)" stroke-width="4" stroke-linecap="round"/>
+<path d="M916 369 L930 377 L916 385" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="926" y="300" width="176" height="154" rx="20" class="card" filter="url(#shadow)"/>
+<rect x="944" y="318" width="44" height="44" rx="14" fill="url(#cyan)" opacity=".9"/>
+<text x="966" y="348" text-anchor="middle" class="label" font-size="20" font-weight="950" fill="#08111e">5</text>
+<text font-size="20" font-weight="900" fill="#f8fafc"><tspan x="944" y="392">Execution</tspan></text>
+<text font-size="13" font-weight="650" fill="#9fb0c8"><tspan x="944" y="422">agents, flows, Night</tspan><tspan x="944" y="440">Shift, Flex OS</tspan></text>
+<path d="M1102 377 H1138" stroke="url(#cyan)" stroke-width="4" stroke-linecap="round"/>
+<path d="M1130 369 L1144 377 L1130 385" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1140" y="300" width="176" height="154" rx="20" class="card" filter="url(#shadow)"/>
+<rect x="1158" y="318" width="44" height="44" rx="14" fill="url(#cyan)" opacity=".9"/>
+<text x="1180" y="348" text-anchor="middle" class="label" font-size="20" font-weight="950" fill="#08111e">6</text>
+<text font-size="20" font-weight="900" fill="#f8fafc"><tspan x="1158" y="392">Proof</tspan></text>
+<text font-size="13" font-weight="650" fill="#9fb0c8"><tspan x="1158" y="422">outputs, replays,</tspan><tspan x="1158" y="440">files, reports</tspan></text>
+<path d="M1316 377 H1352" stroke="url(#cyan)" stroke-width="4" stroke-linecap="round"/>
+<path d="M1344 369 L1358 377 L1344 385" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1354" y="300" width="176" height="154" rx="20" class="card" filter="url(#shadow)"/>
+<rect x="1372" y="318" width="44" height="44" rx="14" fill="url(#cyan)" opacity=".9"/>
+<text x="1394" y="348" text-anchor="middle" class="label" font-size="20" font-weight="950" fill="#08111e">7</text>
+<text font-size="20" font-weight="900" fill="#f8fafc"><tspan x="1372" y="392">Portal</tspan></text>
+<text font-size="13" font-weight="650" fill="#9fb0c8"><tspan x="1372" y="422">client portal, export,</tspan><tspan x="1372" y="440">handoff</tspan></text>
+<path d="M1530 377 H1566" stroke="url(#cyan)" stroke-width="4" stroke-linecap="round"/>
+<path d="M1558 369 L1572 377 L1558 385" fill="none" stroke="#67e8f9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1568" y="300" width="176" height="154" rx="20" class="card" filter="url(#shadow)"/>
+<rect x="1586" y="318" width="44" height="44" rx="14" fill="url(#gold)" opacity=".9"/>
+<text x="1608" y="348" text-anchor="middle" class="label" font-size="20" font-weight="950" fill="#08111e">8</text>
+<text font-size="20" font-weight="900" fill="#f8fafc"><tspan x="1586" y="392">Revenue</tspan></text>
+<text font-size="13" font-weight="650" fill="#9fb0c8"><tspan x="1586" y="422">subscription, setup</tspan><tspan x="1586" y="440">fee, credits</tspan></text>
+<rect x="92" y="560" width="480" height="185" rx="18" class="card2" filter="url(#shadow)"/>
+<rect x="92" y="560" width="7" height="185" rx="4" fill="url(#cyan)"/>
+<text x="116" y="594" class="label" font-size="20" font-weight="850" fill="#f8fafc">Screen evidence to capture</text>
+<text x="116" y="626" class="label" font-size="15" font-weight="600" fill="#a8b6cf">/business-spaces</text>
+<text x="116" y="650" class="label" font-size="15" font-weight="600" fill="#a8b6cf">/business-spaces/:id/command-center</text>
+<text x="116" y="674" class="label" font-size="15" font-weight="600" fill="#a8b6cf">/roi + /proposal</text>
+<text x="116" y="698" class="label" font-size="15" font-weight="600" fill="#a8b6cf">/night-shift + /output-vault</text>
+<rect x="660" y="560" width="480" height="185" rx="18" class="card2" filter="url(#shadow)"/>
+<rect x="660" y="560" width="7" height="185" rx="4" fill="url(#green)"/>
+<text x="684" y="594" class="label" font-size="20" font-weight="850" fill="#f8fafc">Why buyers understand it</text>
+<text x="684" y="626" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Starts with their pain</text>
+<text x="684" y="650" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Shows measurable ROI</text>
+<text x="684" y="674" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Creates client-ready proposal</text>
+<text x="684" y="698" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Turns work into reusable proof</text>
+<rect x="1228" y="560" width="480" height="185" rx="18" class="card2" filter="url(#shadow)"/>
+<rect x="1228" y="560" width="7" height="185" rx="4" fill="url(#gold)"/>
+<text x="1252" y="594" class="label" font-size="20" font-weight="850" fill="#f8fafc">Revenue hooks</text>
+<text x="1252" y="626" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Pro/Premium Business Spaces</text>
+<text x="1252" y="650" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Setup fee and managed service</text>
+<text x="1252" y="674" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Execution credits</text>
+<text x="1252" y="698" class="label" font-size="15" font-weight="600" fill="#a8b6cf">Portal/export upsell</text>
+<rect x="150" y="835" width="1500" height="96" rx="26" fill="rgba(245,158,11,.12)" stroke="rgba(251,191,36,.38)"/>
+<text x="900" y="875" text-anchor="middle" class="label" font-size="26" font-weight="950" fill="#fde68a">Flagship pitch</text>
+<text x="900" y="910" text-anchor="middle" class="label" font-size="18" font-weight="700" fill="#fef3c7">Arsenal turns a business problem into a measurable, deployable, client-ready operating system.</text>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "title": "Arsenal Atlas Premium Graphics",
+  "added_graphics": [
+    "visuals/graphics/arsenal-platform-command-map.svg",
+    "visuals/graphics/business-spaces-revenue-engine-premium.svg",
+    "visuals/graphics/ai-feature-control-plane.svg",
+    "visuals/graphics/revenue-opportunity-matrix.svg",
+    "visuals/graphics/feature-ecosystem-matrix.svg",
+    "visuals/graphics/screenshot-capture-board.svg",
+    "visuals/graphics/admin-control-tower.svg",
+    "visuals/graphics/marketplace-commerce-flywheel.svg",
+    "visuals/graphics/data-layer-feature-families.svg"
+  ],
+  "gallery": "visuals/premium-graphics-gallery.md",
+  "html_dashboard": "visuals/atlas-visual-dashboard.html",
+  "superlayout_concepts": "visuals/superlayout-concepts.md",
+  "design_intent": [
+    "Make Arsenal legible as a business operating system.",
+    "Show feature relationships and commercial opportunity visually.",
+    "Create deck-ready and GitHub-viewable assets.",
+    "Avoid private data, secrets, and copied production source."
+  ]
+}
